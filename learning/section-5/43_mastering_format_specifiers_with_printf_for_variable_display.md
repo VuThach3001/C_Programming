@@ -41,6 +41,7 @@
     ```
 **2. Summary**
 ![alt text](image.png)
+
 ---
 
 ### Summary Section (Summary of Notes)
