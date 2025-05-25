@@ -73,7 +73,7 @@ broiled = "T"; /* No! because "T" is a string */
 - **Escape sequences** must be enclosed in single quotes when assigned to a character variable.
 - ```char x = '\n';```
 - And then print the variable ```x``` to advance the printer or screen one line.
-
+    ![alt text](image.png)
 ---
 
 ### Summary Section (Summary of Notes)
