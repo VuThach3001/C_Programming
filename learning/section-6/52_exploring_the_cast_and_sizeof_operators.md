@@ -51,7 +51,7 @@
 - The asterisk ```*``` is an operator that represents a pointer to a variable ```*a;```
 - ```?``` is an operator used for comparisons
     - If condition is :```true ? x : y```, it will tell you that if this is true then value is x, otherwise value is y
-    - Name is the ternary operator
+    - Name is the **ternary operator**
 
 ---
 
