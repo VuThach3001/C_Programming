@@ -26,7 +26,7 @@ int main(){
     printf("Enter your number of hours worked in a week: ");
     scanf("%d", &numberOfhoursWorked);
     /* Check the condition if it exceeds over 40 hours */
-    grossPay = numberOfhoursWorked > 40 ? (payRate * 40 + (numberOfhoursWorked - 40) * payOTRate) : (12 * numberOfhoursWorked);
+    grossPay = numberOfhoursWorked > 40 ? (payRate * 40 + (numberOfhoursWorked - 40) * payOTRate) : (payRate * numberOfhoursWorked);
 
     /* Tax */
     if(grossPay <= 300)
@@ -36,6 +36,7 @@ int main(){
     else
         tax = (300 * 0.15) + (150 * 0.2) + ((grossPay - 450) * 0.25);
 
+    /* Calculate the net pay */
     netPay = grossPay - tax;
     
     printf("grossPay: %d\n", grossPay);
