@@ -43,8 +43,5 @@ int main(){
     printf("Tax: %.2f\n", tax);
     printf("netPay: %.2f\n", netPay);
 
-
-
-
     return 0;
 }
