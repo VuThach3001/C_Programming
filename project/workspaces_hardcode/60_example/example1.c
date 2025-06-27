@@ -25,7 +25,7 @@ int main()
         case '/':
             (value2 == 0) ? printf("Division by zero\n") : printf("%.2f\n", value1 / value2);
             break;
-            
+             
         default:
             printf("Unknown operator.\n");
             break;
