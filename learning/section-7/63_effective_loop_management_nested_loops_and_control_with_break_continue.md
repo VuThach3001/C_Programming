@@ -13,7 +13,7 @@
 - Going through all the houses could be an ```outer loop```, and for each iteration of ```outer loop``` you would have an ```inner loop``` that counts the occupants.
 
 **2. Continue Statements**
-- Sometimes a situation arises where you do not want to end a loop, but you want to sskip the current iteration
+- Sometimes a situation arises where you do not want to end a loop, but you want to skip the current iteration
 - The continue statement in the body of a loop does this
   - All you need to do is use the keyword ```continue```, in the body of the loop
 - An advantage of using ```continue``` is that it can sometimes eliminate nesting or additional blocks of code
