@@ -18,8 +18,8 @@ int main()
         sum += grades[i]; // Add it to sum
     }
 
-    average = (float) sum/count; // average
+    average = (float) sum / count; // average
     printf("\nAverage of the ten grades entered is: %.2f\n", average);
-    
+
     return 0;
 }
