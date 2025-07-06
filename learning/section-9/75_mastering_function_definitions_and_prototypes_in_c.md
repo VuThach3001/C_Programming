@@ -1,4 +1,4 @@
-# Section 7: Mastering Program Flow Control with C Language Constructs
+# Section 9: Demystifying Function Parameters, Returns, and Scope in C
 
 ## Topic: Mastering Functions Definitions and Prototypes in C
 ## Date: 04/07/2025

@@ -1,4 +1,4 @@
-# Section 7: Mastering Program Flow Control with C Language Constructs
+# Section 9: Demystifying Function Parameters, Returns, and Scope in C
 
 ## Topic: Exploring Variable Length Arrays (VLAs) in C: A C99 Feature
 ## Date: 03/07/2025
