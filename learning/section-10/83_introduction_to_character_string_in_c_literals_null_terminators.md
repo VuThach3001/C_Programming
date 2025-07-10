@@ -2,7 +2,7 @@
 
 ## Topic: Introduction to Character Strings in C: Literals, Null Terminators
 
-## Date: 07/07/2025
+## Date: 11/07/2025
 
 ### Notes Section (Main Notes)
 
