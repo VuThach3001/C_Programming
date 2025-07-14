@@ -6,7 +6,7 @@
 ### Notes Section (Main Notes)
 
 **1. Arguments and Parameters**
-- A parameter is a variable in a function declaration and function definition/implementation
+- A **parameter** is a variable in a function declaration and function definition/implementation
 - When a function is called, the arguments are the data you pass into the functions parameters.
   - The actual value of a variable that gets passed to the function.
 - Functiono parameters are defined within the function header

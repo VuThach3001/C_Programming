@@ -22,6 +22,10 @@ int checkForWin(void);
 void drawBoard(void);
 void markBoard(char mark);
 
+void test(){
+    return 0;
+}
+
 int main(void) 
 {
     char mark;
