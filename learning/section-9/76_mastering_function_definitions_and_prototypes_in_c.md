@@ -7,7 +7,7 @@
 
 **1. Arguments and Parameters**
 - A **parameter** is a variable in a function declaration and function definition/implementation
-- When a function is called, the arguments are the data you pass into the functions parameters.
+- When a function is called, the **arguments** are the data you pass into the functions parameters.
   - The actual value of a variable that gets passed to the function.
 - Functiono parameters are defined within the function header
   - Are placeholdon has no means of knoers for the arguments that need to be specified when the function is called
