@@ -66,7 +66,7 @@ int main(void)
 
     /* Test strings equal */
     const char str1Equal[20] = "Thach";
-    const char str2Equal[20] = "Thachdeptrai";
+    const char str2Equal[20] = "Thaxh";
     _Bool isEqualTest = 0;
     isEqualTest = isStringEqual(str1Equal, str2Equal);
     printf("The result is : %d\n", isEqualTest);
@@ -118,11 +118,10 @@ _Bool isStringEqual(const char str1[], const char str2[])
             if (str1[i] != str2[i])
             {
                 isEqual = 0;
-                break; 
+                return isEqual;
             }
-            else
-                isEqual = 1;
         }
+        isEqual = 1;
     }
 
     return isEqual;

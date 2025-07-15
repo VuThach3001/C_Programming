@@ -21,11 +21,11 @@
 - Don't use ```continue``` if it complicates rather than simplifies the code.
 
 **3. Break statement**
-- Normally, after the body of a loop has been entered, a program executes all the statements in the body befor do the loop test
+- Normally, after the body of a loop has been entered, a program executes all the statements in the body before do the loop test
   - We learned how ```continue``` works
   - Another statement named ```break``` alters this behavior.
 - The ```break``` statement cause the program to immediately exit from the loop it is executing
-  - Statements in the loop are skippedm and execution of the loop is terminated
+  - Statements in the loop are skipped and execution of the loop is terminated
   - If the ```break``` statement is inside nested loops, it affects only the inner most loop containing it
   - Use the keyword ```break;```
 - ```break``` is often used to leave a loop when there are two separate reasons to leave.
