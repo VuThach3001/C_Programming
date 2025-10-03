@@ -57,6 +57,42 @@ int *pnumber = &number;
 - Pointers allow us to design and develop complex data structures like a stack, queue, or linked list
 - Pointers provide direct memory access
 
+**4. Displaying a pointers value**
+- To output the address of a variable, you use the output format specifier `%p`
+  - Outputs a pointer value as a memory address in hexadecimal form
+```c
+int number = 0; // A variable of type int initialized to 0
+int* pnumber = NULL; // A pointer that can point to type int
+
+number = 10;
+pnumber = &number;
+printf("pnumber's value: %p\n", pnumber); // Output the value (an address)
+```
+- Pointers occupy 8 bytes and the addresses have 16 hexadecimal digits
+  - If a machine has a 64-bit opearating system and my compiler supports 64-bit addresses
+  - Some compilers only support 32-bit addressing, in which case addresses will be 32-bit addresses
+```c
+  printf("number's address: %p\n", &number); //Output the address
+  printf("pnumber's address: %p\n", (void*)&pnumber); //Output the address
+```
+- Remember, a pointer itself has an address, just like any other variable
+  - You use `%p` as the conversion specifier to display an address
+  - You use the `&` (address of) operator to reference the address that the `pnumber` variable occupies
+  - The cast to `void*` is to prevent a possible warning from the compiler
+    - The `%p` specification expects the value to be some kind of pointer type, but the type of `&pnumber` is "pointer to pointer to int"
+
+**5. Displaying the number of bytes a pointer is using**
+- You use the `sizeof` operator to obtain the number of bytes a pointer occupies
+- You may get a compiler warning when using `sizeof` this way
+  - `size_t` is an implementation-defined integer type
+  - To prevent the warning, you could cast the argument to type `int` like:
+  ```c
+    printf("pnumber's size: %d bytes\n", (int) sizeof(pnumber)); //Output the size
+  ```
+
+
 ---
+
+
 
 ### Summary Section (Summary of Notes)
