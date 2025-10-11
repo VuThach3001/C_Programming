@@ -79,7 +79,6 @@ struct month
 - This sets up a `month` structure that contains an integer member called `numberOfDays` and a character member called name
   - Member name is actually an array of three characters.
 
-**5. Structures containing arrays**
 - You can now define a variable to be of type struct `month` and set the proper fields inside `aMonth` for January
 ```c
 struct month aMonth;
