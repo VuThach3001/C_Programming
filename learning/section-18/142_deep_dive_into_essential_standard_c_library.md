@@ -1,4 +1,4 @@
-# Section 17: Exploring the Comprehensive Standard C Library
+# Section 18: Exploring the Comprehensive Standard C library
 
 ## Topic: Deep Dive into Essential Standard C Library Header Files
 
@@ -32,6 +32,7 @@
 
 - `<stdbool.h>` - file contains definitions for working with Boolean variables (type _Bool)
 
+![alt text](image-2.png)
 
 
 ---
